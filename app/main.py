@@ -1,5 +1,5 @@
 # main.py
-from user_manager import register_user, create_tables
+from .user_manager import register_user, create_tables
 
 # テーブル作成（最初に一度だけ実行）
 create_tables()

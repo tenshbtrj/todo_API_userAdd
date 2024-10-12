@@ -2,7 +2,7 @@
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash
 from flask import Flask
-import config as config
+from . import config as config
 
 # Flaskアプリの初期化
 app = Flask(__name__)
